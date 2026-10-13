@@ -29,15 +29,21 @@ Resource: https://developer.android.com/training/permissions/requesting
 
 ## Networking
 
-Resource:
+DNS over HTTPS (DoH) sends DNS queries over an encrypted HTTPS connection, helping prevent other parties on the network from easily reading or modifying those queries. However, DoH does not make a user completely anonymous, prevent phishing, or protect all other internet traffic. A national login service can use secure DNS as one layer of protection, alongside HTTPS, secure authentication, and monitoring.
+
+Resource: https://www.rfc-editor.org/rfc/rfc8484
 
 ## Cybersecurity
 
-Resource:
+Phishing-resistant authentication is designed to prevent users from being tricked into giving attackers credentials that can be reused. Passkeys using FIDO2/WebAuthn are phishing-resistant because authentication is bound to the legitimate website or service. SMS one-time codes and codes entered from authenticator apps can still be phished. A national login service should prefer phishing-resistant methods for protecting sensitive government accounts.
+
+Resource: https://www.cisa.gov/ncas/tips/st05-012
 
 ## Data
 
-Resource:
+Oman’s Personal Data Protection Law, issued by Royal Decree 6/2022, establishes requirements for processing personal data. A national login service should identify a lawful basis for processing, explain its data practices, protect personal information, and apply appropriate controls to storage and access. It should also follow applicable requirements for consent, data-subject rights, and cross-border transfers. The service must verify its obligations under the law and its executive regulation.
+
+Resource: https://decree.om/2022/l20220006/
 
 ## Misconception in My Track
 
