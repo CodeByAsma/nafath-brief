@@ -47,4 +47,10 @@ Resource: https://decree.om/2022/l20220006/
 
 ## Misconception in My Track
 
+A common misconception is that OAuth 2.0 and OpenID Connect are interchangeable because both are used during sign-in. In fact, OAuth 2.0 is an authorization framework that allows an application to access protected resources with permission. OpenID Connect adds an identity layer on top of OAuth 2.0 so a client can verify the user's identity. A national login service needs to distinguish authentication from authorization to ensure that identity verification and access to government services are handled correctly.
+
+Resource: https://openid.net/foundation/how-connect-works/
+
 ## Open Question
+
+How can a national digital login service use OpenID Connect to verify a citizen’s identity while ensuring that each government application receives access only to the resources it is authorized to use?
