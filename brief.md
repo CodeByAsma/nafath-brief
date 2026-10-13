@@ -13,8 +13,6 @@ OAuth 2.0 is an authorization framework that allows an application to access res
 
 Resource: https://openid.net/foundation/how-connect-works/
 
-Resource:
-
 ## AI
 
 An AI model that flags suspicious logins can produce false positives, blocking legitimate users, or false negatives, missing risky activity. It may also perform unevenly across user groups if its data is biased or incomplete. The NIST AI Risk Management Framework recommends managing AI risks throughout the system lifecycle. A national login service should monitor model performance, protect personal data, and provide human review and an appeal path for affected users.
